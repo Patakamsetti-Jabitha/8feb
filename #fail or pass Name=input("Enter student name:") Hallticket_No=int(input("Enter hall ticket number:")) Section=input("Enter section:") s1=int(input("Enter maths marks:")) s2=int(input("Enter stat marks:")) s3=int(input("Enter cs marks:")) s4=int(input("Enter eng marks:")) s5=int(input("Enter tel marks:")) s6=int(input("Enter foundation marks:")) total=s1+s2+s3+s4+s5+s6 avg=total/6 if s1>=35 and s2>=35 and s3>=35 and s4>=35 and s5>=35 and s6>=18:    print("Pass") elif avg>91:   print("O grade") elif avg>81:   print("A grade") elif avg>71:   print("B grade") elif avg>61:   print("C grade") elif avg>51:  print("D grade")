@@ -1,0 +1,35 @@
+#fail or pass
+Name=input("Enter student name:")
+Hallticket_No=int(input("Enter hall ticket number:"))
+Section=input("Enter section:")
+s1=int(input("Enter maths marks:"))
+s2=int(input("Enter stat marks:"))
+s3=int(input("Enter cs marks:"))
+s4=int(input("Enter eng marks:"))
+s5=int(input("Enter tel marks:"))
+s6=int(input("Enter foundation marks:"))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=18:
+   print("Pass")
+elif avg>91:
+  print("O grade")
+elif avg>81:
+  print("A grade")
+elif avg>71:
+  print("B grade")
+elif avg>61:
+  print("C grade")
+elif avg>51:
+ print("D grade")
+
+
+
+
+
+
+
+
+
+    
+
