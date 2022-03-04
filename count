@@ -1,0 +1,15 @@
+#count for duplicate values in list
+n=int(input('enter range:'))
+l=[]
+count=0
+for i in range(n):
+    x=int(input())
+    l.append(x)
+res=[]
+for i in l:
+    if i  in res:
+               count=count+1
+    else:
+        res.append(i)
+print(count)
+        
