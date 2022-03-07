@@ -1,0 +1,3 @@
+s='ADITYA DEGREE COLLEGE'
+s=s[1:-1]
+print(s)
