@@ -1,0 +1,22 @@
+para=input() 
+l=para
+acount=ncount=ucount=lcount=0 
+for i in l:
+    if i.isalnum():
+        acount+=1 
+    if i.isdecimal():
+        ncount+=1
+    if i.isupper():
+        ucount+=1
+    if i.islower():
+        lcount+=1
+print('no.of alphabets',acount)
+print('no.of digits',ncount)
+print('no.of upper latters',ucount)
+print('no.of lower letters',lcount)
+
+
+
+
+
+
