@@ -1,0 +1,12 @@
+#duplicate
+n=int(input ())
+l=list(map(int,input().split()))
+m=[]
+count=0
+for i in l:
+    if i not in m:
+        m.append(i)
+    else:
+        count=count+1
+print(count)
+        
